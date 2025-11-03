@@ -27,8 +27,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.organization=<tổ_chức_trên_SonarCloud>
-            -Dsonar.projectKey=<mã_dự_án_trên_SonarCloud>
+            -Dsonar.organization=Truong Binh Trong
+            -Dsonar.projectKey=ronnytruong_OOP_Candidate-Management
             -Dsonar.java.binaries=build/classes
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
